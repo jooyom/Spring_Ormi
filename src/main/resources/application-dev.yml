@@ -1,0 +1,24 @@
+  #application.yml#spring.application.name=July08
+#
+#ector-j'implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+#  runtimeOnly 'com.mysql:mysql-conn
+
+  #spring.config.use-legacy-processing=true
+
+  server:
+    port: 8081
+
+  spring:
+    application:
+      name: est-service-dev
+
+    devtools:
+      restart:
+        enabled: true
+
+    thymeleaf:
+      cache: false
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML
+      encoding: UTF-8

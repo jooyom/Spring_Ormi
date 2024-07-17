@@ -1,0 +1,11 @@
+#spring.application.name=July08
+#
+#ector-j'implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+#  runtimeOnly 'com.mysql:mysql-conn
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: est-service-prod
