@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.DispatcherServlet;
 
-@SpringBootApplication(scanBasePackages = "com.example.july08.July16")
+@SpringBootApplication(scanBasePackages = "com.example.july08.day17")
 public class July08Application {
    /* @Value("${server.port}")
     private int port;
