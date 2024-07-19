@@ -71,10 +71,10 @@ public class BoardPostService {
 
     private static CommentDto convertToCommentDto(Comment comment) {
         CommentDto commentDto = new CommentDto();
-        commentDto.setId(commentDto.getId());
-        commentDto.setContent(commentDto.getContent());
-        commentDto.setAuthor(commentDto.getAuthor());
-        commentDto.setCreatedAt(commentDto.getCreatedAt());
+        commentDto.setId(comment.getId());
+        commentDto.setContent(comment.getContent());
+        commentDto.setAuthor(comment.getAuthor());
+        commentDto.setCreatedAt(comment.getCreatedAt());
         return commentDto;
     }
 
